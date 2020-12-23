@@ -9,5 +9,5 @@ class PageObject(BasePage):
         add_button.click()
 
     def book_name(self):
-        book_name = self.browser.find_element(*ProductPageLocators.BOOKNAME)
-        str(book_name)
+        bookname = self.browser.find_element(*ProductPageLocators.BOOKNAME)
+        return bookname.text
