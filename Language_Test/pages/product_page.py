@@ -11,3 +11,7 @@ class PageObject(BasePage):
     def book_name(self):
         bookname = self.browser.find_element(*ProductPageLocators.BOOKNAME)
         return bookname.text
+
+    def sucmesg(self):
+        meseg = self.browser.find_element(*ProductPageLocators.SUCCES_MESSAGE)
+        return meseg.text

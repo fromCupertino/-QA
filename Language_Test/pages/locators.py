@@ -18,3 +18,4 @@ class LoginPageLocators():
 class ProductPageLocators():
     ADD_TO_BUCKET = (By.CSS_SELECTOR, "[class = 'btn btn-lg btn-primary btn-add-to-basket']")
     BOOKNAME = (By.CSS_SELECTOR,'[class = "col-sm-6 product_main"]')
+    SUCCES_MESSAGE = (By.CSS_SELECTOR,'[class = "alertinner "]')
